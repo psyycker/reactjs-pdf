@@ -5,23 +5,8 @@ import PdfJsLib from 'pdfjs-dist';
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 
-export default class ReactPdfJs extends Component {
-  static propTypes = {
-    file: PropTypes.string.isRequired,
-    page: PropTypes.number,
-    onDocumentComplete: PropTypes.func,
-    scale: PropTypes.number,
-    full: PropTypes.bool
-  }
+export default class ReactJsPdf extends Component {
 
-  static defaultProps = {
-    page: 1,
-    onDocumentComplete: null,
-  }
-
-  state = {
-    pdf: null,
-  };
 
   renderOnePage() {
     PdfJsLib.GlobalWorkerOptions.workerSrc = '//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.550/pdf.worker.js';
@@ -118,4 +103,13 @@ export default class ReactPdfJs extends Component {
     else
       return <div ref={(container) => {this.container = container}} />
   }
+}
+
+ReactJsPdf.propTypes = {
+    file: PropTypes.string.isRequired,
+    page: PropTypes.number,
+    onDocumentComplete: PropTypes.func,
+    scale: PropTypes.number,
+    full: PropTypes.bool
+
 }
