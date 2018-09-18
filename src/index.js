@@ -101,7 +101,7 @@ export default class ReactJsPdf extends Component {
     if (this.props.full === undefined || this.props.full === false)
       return <canvas ref={(canvas) => { this.canvas = canvas; }} />;
     else
-      return <div ref={(container) => {this.container = container}} />
+      return <div style={{display: 'flex', flexDirection: 'column'}} ref={(container) => {this.container = container}} />
   }
 }
 
