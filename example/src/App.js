@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Pdf from 'react-pdf-js';
+import Pdf from 'reactjs-pdf';
 
 export default class App extends Component {
   state = { page: 1 };

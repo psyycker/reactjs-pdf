@@ -1,27 +1,27 @@
-# react-pdf-js
+# reactjs-pdf
 
-`react-pdf-js` provides a component for rendering PDF documents using [PDF.js](http://mozilla.github.io/pdf.js/). Written for React 15/16 and ES2015 using the Airbnb style guide.
+`reactjs-pdf` provides a component for rendering PDF documents using [PDF.js](http://mozilla.github.io/pdf.js/). Written for React 15/16 and ES2015 using the Airbnb style guide.
 
 ---
-[![NPM Version](https://img.shields.io/npm/v/react-pdf-js.svg?style=flat-square)](https://www.npmjs.com/package/react-pdf-js)
-[![NPM Downloads](https://img.shields.io/npm/dm/react-pdf-js.svg?style=flat-square)](https://www.npmjs.com/package/react-pdf-js)
-[![Build Status](https://img.shields.io/travis/mikecousins/react-pdf-js/master.svg?style=flat-square)](https://travis-ci.org/mikecousins/react-pdf-js)
-[![Dependency Status](https://david-dm.org/mikecousins/react-pdf-js.svg)](https://david-dm.org/mikecousins/react-pdf-js)
-[![devDependency Status](https://david-dm.org/mikecousins/react-pdf-js/dev-status.svg)](https://david-dm.org/mikecousins/react-pdf-js#info=devDependencies)
+[![NPM Version](https://img.shields.io/npm/v/reactjs-pdf.svg?style=flat-square)](https://www.npmjs.com/package/reactjs-pdf)
+[![NPM Downloads](https://img.shields.io/npm/dm/reactjs-pdf.svg?style=flat-square)](https://www.npmjs.com/package/reactjs-pdf)
+[![Build Status](https://img.shields.io/travis/mikecousins/reactjs-pdf/master.svg?style=flat-square)](https://travis-ci.org/mikecousins/reactjs-pdf)
+[![Dependency Status](https://david-dm.org/mikecousins/reactjs-pdf.svg)](https://david-dm.org/mikecousins/reactjs-pdf)
+[![devDependency Status](https://david-dm.org/mikecousins/reactjs-pdf/dev-status.svg)](https://david-dm.org/mikecousins/reactjs-pdf#info=devDependencies)
 
 ## Demo
 
-http://mikecousins.github.io/react-pdf-js/
+http://mikecousins.github.io/reactjs-pdf/
 
 ## Usage
 
-Install with `yarn add react-pdf-js` or `npm install react-pdf-js`
+Install with `yarn add reactjs-pdf` or `npm install reactjs-pdf`
 
 Use it in your app (showing some basic pagination as well):
 
 ```js
 import React from 'react';
-import PDF from 'react-pdf-js';
+import PDF from 'reactjs-pdf';
 
 class MyPdfViewer extends React.Component {
   state = {};
@@ -80,4 +80,4 @@ export default MyPdfViewer;
 
 ## License
 
-MIT © [mikecousins](https://github.com/mikecousins)
+MIT © [Psyycker](https://github.com/psyycker)

@@ -1,6 +1,6 @@
 {
-  "name": "react-pdf-js-example",
-  "homepage": "https://github.com/psyycker/react-pdf-js",
+  "name": "reactjs-pdf-example",
+  "homepage": "https://github.com/psyycker/reactjs-pdf",
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
@@ -12,7 +12,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "react-pdf-js": "link:..",
+    "reactjs-pdf": "link:..",
     "react-scripts": "^1.1.5"
   },
   "scripts": {

@@ -1,6 +1,6 @@
 {
-  "short_name": "react-pdf-js",
-  "name": "react-pdf-js",
+  "short_name": "reactjs-pdf",
+  "name": "reactjs-pdf",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
