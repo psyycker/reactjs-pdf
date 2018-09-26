@@ -16,8 +16,7 @@ export default class ReactJsPdf extends Component {
         this.props.onDocumentComplete(pdf.pdfInfo.numPages);
       }
       pdf.getPage(this.props.page).then((page) => {
-        const scale = this.props.scale === undefined ? 1.5 : this.props.scale;
-        const viewport = page.getViewport(scale);
+        const viewport = page.getViewport(this.props.scale);
 
         const { canvas } = this;
         const canvasContext = canvas.getContext('2d');
@@ -65,8 +64,7 @@ export default class ReactJsPdf extends Component {
 
   renderOtherPage(newProps){
     this.state.pdf.getPage(newProps.page).then((page) => {
-      const scale = 1.5;
-      const viewport = page.getViewport(scale);
+      const viewport = page.getViewport(this.props.scale);
 
       const { canvas } = this;
       const canvasContext = canvas.getContext('2d');
@@ -106,10 +104,14 @@ export default class ReactJsPdf extends Component {
 }
 
 ReactJsPdf.propTypes = {
-    file: PropTypes.string.isRequired,
-    page: PropTypes.number,
-    onDocumentComplete: PropTypes.func,
-    scale: PropTypes.number,
-    full: PropTypes.bool
+  file: PropTypes.string.isRequired,
+  page: PropTypes.number,
+  onDocumentComplete: PropTypes.func,
+  scale: PropTypes.number,
+  full: PropTypes.bool
+}
 
+ReactJsPdf.defaultProps = {
+  page: 1,
+  scale: 1.5
 }

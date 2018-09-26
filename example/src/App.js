@@ -66,7 +66,7 @@ export default class App extends Component {
     }
     return (
       <div>
-        <Pdf full file="test.pdf" onDocumentComplete={this.onDocumentComplete} page={this.state.page} scale={1.5} />
+        <Pdf file={require('./test.pdf')} onDocumentComplete={this.onDocumentComplete} page={this.state.page} scale={1.5} />
         {pagination}
       </div>
     );
