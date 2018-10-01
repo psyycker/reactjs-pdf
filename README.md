@@ -9,10 +9,6 @@
 [![Dependency Status](https://david-dm.org/mikecousins/reactjs-pdf.svg)](https://david-dm.org/mikecousins/reactjs-pdf)
 [![devDependency Status](https://david-dm.org/mikecousins/reactjs-pdf/dev-status.svg)](https://david-dm.org/mikecousins/reactjs-pdf#info=devDependencies)
 
-## Demo
-
-http://mikecousins.github.io/reactjs-pdf/
-
 ## Usage
 
 Install with `yarn add reactjs-pdf` or `npm install reactjs-pdf`
