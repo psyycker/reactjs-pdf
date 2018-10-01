@@ -1,13 +1,7 @@
 # reactjs-pdf
 
-`reactjs-pdf` provides a component for rendering PDF documents using [PDF.js](http://mozilla.github.io/pdf.js/). Written for React 15/16 and ES2015 using the Airbnb style guide.
+`reactjs-pdf` provides a component for rendering PDF documents using [PDF.js](http://mozilla.github.io/pdf.js/).
 
----
-[![NPM Version](https://img.shields.io/npm/v/reactjs-pdf.svg?style=flat-square)](https://www.npmjs.com/package/reactjs-pdf)
-[![NPM Downloads](https://img.shields.io/npm/dm/reactjs-pdf.svg?style=flat-square)](https://www.npmjs.com/package/reactjs-pdf)
-[![Build Status](https://img.shields.io/travis/mikecousins/reactjs-pdf/master.svg?style=flat-square)](https://travis-ci.org/mikecousins/reactjs-pdf)
-[![Dependency Status](https://david-dm.org/mikecousins/reactjs-pdf.svg)](https://david-dm.org/mikecousins/reactjs-pdf)
-[![devDependency Status](https://david-dm.org/mikecousins/reactjs-pdf/dev-status.svg)](https://david-dm.org/mikecousins/reactjs-pdf#info=devDependencies)
 
 ## Usage
 
