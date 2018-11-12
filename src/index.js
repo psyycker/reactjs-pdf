@@ -38,7 +38,7 @@ export default class ReactJsPdf extends Component {
       this.setState({ pdf });
       const pages = pdf.pdfInfo.numPages
 
-      for (let index = 1; index < pages; index++) {
+      for (let index = 1; index < pages + 1; index++) {
         pdf.getPage(index).then((page) => {
           const scale = this.props.scale === undefined ? 1.5 : this.props.scale;
           const viewport = page.getViewport(scale);
